@@ -1,5 +1,9 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-01-23（金）  
+  - S3 + CloudFrontをCloudFormationでlaCの作成  
+  - OACで静的ウェブサイトを公開するlaCの作成  
+
 ## 2026-01-22（木）  
 ### ハンズオン: AWS:S3 + CloudFront プロジェクト  
   - S3バケット作成  
