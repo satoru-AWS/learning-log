@@ -1,5 +1,9 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-01-25(日)  
+  - VPC関連のCloudformationのテンプレートから内容を分解  
+  - Subnet、NatGateway
+
 ## 2026-01-24（土）  
   - VPC関連のCloudformationのテンプレートから内容を分解
 
