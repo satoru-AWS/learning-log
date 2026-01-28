@@ -1,16 +1,18 @@
 # 学習ログ(Daily Learning Log)  
-
+## 2026-01-28（水）  
+  - S3 + CloudFrontを自動化するためのCiecleCiの設定ファイルを作成  
+  
 ## 2026-01-25(日)  
   - VPC関連のCloudformationのテンプレートから内容を分解  
   - Subnet、NatGateway
-
+  
 ## 2026-01-24（土）  
   - VPC関連のCloudformationのテンプレートから内容を分解
-
+  
 ## 2026-01-23（金）  
   - S3 + CloudFrontをCloudFormationでlaCの作成  
   - OACで静的ウェブサイトを公開するlaCの作成  
-
+  
 ## 2026-01-22（木）  
 ### ハンズオン: AWS:S3 + CloudFront プロジェクト  
   - S3バケット作成  
