@@ -1,4 +1,9 @@
 # 学習ログ(Daily Learning Log)  
+  
+## 2026-01-29(木)  
+  - S3 + CloudFrontを自動化するためのCiecleCiの設定ファイルを作成
+  - 構文チェック->cloudformationの実行->S3にアップロードの自動化を記載
+
 ## 2026-01-28（水）  
   - S3 + CloudFrontを自動化するためのCiecleCiの設定ファイルを作成  
   
