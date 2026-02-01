@@ -1,9 +1,12 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-02-01（日）  
+  - VPC関連のCloudFormationテンプレートを基にコンソールからリソース作成  
+  - 作成リソース:EIP NatGateway
+
 ## 2026-01-31（土）  
-  - VPC関連のCloudFormationテンプレートを基にコンソールからリソース作成
-  - 作成リソース:VPC Subnet(public protected private)   
-    InternetGateway RouteTable VPCendpoint
+  - VPC関連のCloudFormationテンプレートを基にコンソールからリソース作成  
+  - 作成リソース:VPC Subnet(public protected private)  InternetGateway RouteTable VPCendpoint
 
 ## 2026-01-29(木)  
   - S3 + CloudFrontを自動化するためのCiecleCiの設定ファイルを作成
