@@ -1,5 +1,9 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-02-02（月）  
+  - S3 + CloudFrontのセキュリティ強化（最小権限のIAMユーザー）  
+  - Githubリポジトリのファイル構造を検討  
+
 ## 2026-02-01（日）  
   - VPC関連のCloudFormationテンプレートを基にコンソールからリソース作成  
   - 作成リソース:EIP NatGateway
