@@ -1,5 +1,9 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-02-06（金）  
+  - circleciの設定ファイルを修正  
+    -  エラーで進めず  
+
 ## 2026-02-04（水）  
   - circleciの設定ファイルを修正  
   - circleciの環境変数を設定  
