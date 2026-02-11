@@ -1,0 +1,59 @@
+name: Daily Learning Log Reminder
+
+# 毎日21:00 JST (12:00 UTC) にリマインダーを実行
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  check-daily-log:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check if today's log exists
+        id: check
+        run: |
+          TODAY=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          if grep -q "^## ${TODAY}" daily_log.md; then
+            echo "logged=true" >> "$GITHUB_OUTPUT"
+            echo "今日（${TODAY}）の学習ログは記録済みです"
+          else
+            echo "logged=false" >> "$GITHUB_OUTPUT"
+            echo "今日（${TODAY}）の学習ログがまだ記録されていません"
+          fi
+
+      - name: Create reminder issue
+        if: steps.check.outputs.logged == 'false'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toLocaleDateString('ja-JP', {
+              timeZone: 'Asia/Tokyo',
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit'
+            });
+
+            // 既存のリマインダーissueが開いていれば作成しない
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'daily-log-reminder'
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `📝 学習ログ未記入: ${today}`,
+                body: `今日の学習ログがまだ記録されていません。\n\n` +
+                      `以下のコマンドで記録できます:\n` +
+                      '```bash\n' +
+                      `./log.sh "今日の学習内容"\n` +
+                      '```\n',
+                labels: ['daily-log-reminder']
+              });
+            }
