@@ -1,5 +1,9 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-03-08（日）  
+  - CCNA学習  
+  - cloudformationのセキュリティ部分（インターフェイス型のエンドポイント含む）の記述 
+
 ## 2026-03-07（土）  
   - CCNA学習  
   - cloudformationのネットワーク部分の記述  
