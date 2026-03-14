@@ -1,8 +1,17 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-03-14（土）  
+  - CCNA学習  
+  - cloudformationのapplication部分の記述  
+    - 今回は特にCloudfront＋OACを導入すべきかで悩んだ。セキュリティ面と実用面のどちらを取るべきか。
+
+## 2026-03-13（金）  
+  - CCNA学習  
+  - cloudformationのapplication部分の記述  
+
 ## 2026-03-12（木）  
   - CCNA学習  
-  - cloudformationのapplication部分の記述
+  - cloudformationのapplication部分の記述  
 
 ## 2026-03-11（水）  
   - CCNA学習  
