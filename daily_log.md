@@ -1,5 +1,9 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-03-15（日）  
+  - CCNA学習
+  - ルビコン塾（VPC関連、CostExplore関連、EC2関連）  
+
 ## 2026-03-14（土）  
   - CCNA学習  
   - cloudformationのapplication部分の記述  
