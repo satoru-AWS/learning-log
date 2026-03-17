@@ -1,5 +1,12 @@
 # 学習ログ(Daily Learning Log)  
 
+## 2026-03-17（火）  
+  - CCNA学習  
+
+## 2026-03-16（月）    
+  - CCNA学習
+  - 新ポートフォリオのためのansible設計の見直し  
+
 ## 2026-03-15（日）  
   - CCNA学習
   - ルビコン塾（VPC関連、CostExplore関連、EC2関連）  
